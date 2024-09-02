@@ -1,0 +1,5 @@
+Doctor Who 65789.87 0.081
+Sarah Smith 938.53 0.023
+Ruby Sunday 75892.56 0.061
+Donna Noble 4900.50 0.018
+Lethbridge Stewart 158123.75 0.022
