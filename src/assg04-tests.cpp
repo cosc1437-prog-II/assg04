@@ -52,9 +52,9 @@ TEST_CASE("Task 2 <averageAllValuesInFile()> tests", "[task2]")
   // there are 4 files for this test that are in the appropriate format for
   // this tasks function
   CHECK_THAT(averageAllValuesInFile("data/task02-test01.txt"), Catch::WithinAbs(4.5, 0.000000000001));
-  //CHECK_THAT(averageAllValuesInFile("data/task02-test02.txt"), Catch::WithinAbs(44.6975, 0.000000000001));
-  //CHECK_THAT(averageAllValuesInFile("data/task02-test03.txt"), Catch::WithinAbs(46.05174, 0.000000000001));
-  //CHECK_THAT(averageAllValuesInFile("data/task02-test04.txt"), Catch::WithinAbs(50.3661564, 0.000000000001));
+  CHECK_THAT(averageAllValuesInFile("data/task02-test02.txt"), Catch::WithinAbs(44.6975, 0.000000000001));
+  CHECK_THAT(averageAllValuesInFile("data/task02-test03.txt"), Catch::WithinAbs(46.05174, 0.000000000001));
+  CHECK_THAT(averageAllValuesInFile("data/task02-test04.txt"), Catch::WithinAbs(50.3661564, 0.000000000001));
 }
 #endif
 
